@@ -15,7 +15,7 @@ fetch API
 TMDB API
 
 HOW TO USE:-
-You can click the site {} to start the service online
+You can click the site {https://harshhudda.github.io/Movie_Search/} to start the service online
 
 or
 
