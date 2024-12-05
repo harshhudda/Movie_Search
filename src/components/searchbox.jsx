@@ -83,7 +83,7 @@ export default function SearchBox() {
             <div>
                 {movies.map(movie => (
                     <div key={movie.id} className="movie">
-                        <img src={movie.poster_path ? `https://image.tmdb.org/t/p/w200${movie.poster_path}` : `${import.meta.env.BASE_URL}images.png`} alt={movie.title} />
+                        <img src={movie.poster_path ? `https://image.tmdb.org/t/p/w200${movie.poster_path}` : `${import.meta.env.BASE_URL}/images.png`} alt={movie.title} />
                         <div className="movie-info">
                             <h2>{movie.title}</h2>
                             <p>Release Year: {movie.release_date ? movie.release_date.split('-')[0] : 'N/A'}</p>
